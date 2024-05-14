@@ -51,7 +51,7 @@ private:
                 return 0;
             }
         }
-        if (strcmp(package_name, "com.blayzegames.iosfps") == 0) {
+        if (strcmp(package_name, "com.axlebolt.standoff2") == 0) {
             LOGI(OBFUSCATE("we have found: %s"), package_name);
             env->ReleaseStringUTFChars(appDataDir, app_data_dir);
             return 1;
